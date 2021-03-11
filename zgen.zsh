@@ -9,7 +9,7 @@ local ZGEN_SOURCE="$0:A:h"
 
 
 if [[ -z "${ZGEN_DIR}" ]]; then
-    ZGEN_DIR="${HOME}/.zgen"
+    ZGEN_DIR="${XDG_CONFIG_HOME:-$HOME/.config}/zgen"
 fi
 
 if [[ -z "${ZGEN_INIT}" ]]; then
