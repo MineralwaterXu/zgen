@@ -10,12 +10,12 @@ The motive for creating zgen was to have plugins quickly installed on a new mach
 
 Clone the zgen repository
 
-    git clone https://github.com/tarjoilija/zgen.git "${HOME}/.zgen"
+    git clone https://github.com/MineralwaterXu/zgen.git "${XDG_CONFIG_HOME:-$HOME/.config}/zgen"
 
 Edit your .zshrc file to load zgen
 
     # load zgen
-    source "${HOME}/.zgen/zgen.zsh"
+    source "${XDG_CONFIG_HOME/.config}/zgen/zgen.zsh"
 
 Place the following code after the one above to load oh-my-zsh for example, see Usage for more details
 
